@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#isplays Best School and then Hi on a new line.
+i=0
+while [ $i -lt 10 ]
+do
+	if [ $i -eq 9 ]
+	then
+		echo -e "Hi\nBest School"
+	else
+		echo "Best School"
+	fi
+((i++))
+done
